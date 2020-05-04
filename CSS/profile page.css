@@ -12,7 +12,8 @@ nav{
   background: #e63946;
   height: 80px;
   width: 100%;
-  z-index: auto;
+  position: absolute;
+  z-index: 2;
 }
 label.logo{
   color: white;
@@ -139,7 +140,7 @@ h1{
   right: 0;
   border-radius: 8px;
   box-shadow: 0 0 20px 100px rgba(233,144,7,0,7);
-  
+
 }
 
 .information{
@@ -220,10 +221,10 @@ h1{
   margin: 20px;
   padding: 20px;
   border: 5px solid white;
- 
+
   transition: all .3s ease;
   color: white;
-  
+
 }
 .content .fas{
   font-size: 70px;
