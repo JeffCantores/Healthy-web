@@ -1,0 +1,313 @@
+body, html {
+  height: 50%;
+}
+
+.parallax {
+
+  background-image: url('Images/socialize.jpg');
+  text-align: center;
+  opacity: 0.7;
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  background: #eae2b7;
+  background-size: auto;
+  font-family: Trebuchet MS;
+}
+nav{
+  background: #e63946;
+  height: 80px;
+  width: 100%;
+}
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 100px;
+
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  background: #003049;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 952px){
+  .responsive{
+    height: 20%;
+  }
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  .parallax{
+    background-image: url('Images/lifestyle2.jpg');
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #e63946;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+    font-weight: bold;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #003049;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+
+}
+section{
+  height: calc(100vh - 80px);
+  text-align: center;
+  background-image: url('Images/socialize.jpg');
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.backdrop{
+  background-image: linear-gradient(#ffffff, #f4a261);
+  padding: 30px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-image: linear-gradient(#ffffff, #f4a261);
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+}body, html {
+  height: 50%;
+}
+
+.parallax {
+
+  background-image: url('Images/socialize.jpg');
+  text-align: center;
+  opacity: 0.7;
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  background: #eae2b7;
+  background-size: auto;
+  font-family: Trebuchet MS;
+}
+nav{
+  background: #e63946;
+  height: 80px;
+  width: 100%;
+}
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 100px;
+
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  background: #003049;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 952px){
+  .responsive{
+    height: 20%;
+  }
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  .parallax{
+    background-image: url('Images/lifestyle2.jpg');
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #e63946;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+    font-weight: bold;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #003049;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+
+}
+section{
+  height: calc(100vh - 80px);
+  text-align: center;
+  background-image: url('Images/socialize.jpg');
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.backdrop{
+  background-image: linear-gradient(#ffffff, #f4a261);
+  padding: 30px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-image: linear-gradient(#ffffff, #f4a261);
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+}
