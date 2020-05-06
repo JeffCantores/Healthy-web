@@ -344,3 +344,19 @@ h1{
 .content a:hover{
   border-radius: 4px;
 }
+
+#Carnivore{
+  background-image: url('https://images-na.ssl-images-amazon.com/images/I/81SiJkss%2BML._AC_SL1500_.jpg');
+}
+
+#Vegan{
+  background-image: url('https://mfacdn.cachefly.net/chooseveg/sites/2/2018/11/Healthy-Foods-1440x570.jpg');
+}
+
+#fatDestroyer{
+  background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/5-fat-burning-foods-berries-1519841878.jpg?crop=0.5333333333333333xw:1xh;center,top&resize=480:*');
+}
+
+#bulkUp{
+  background-image: url('https://1hl88v1pgor71fw4zc37dmbz-wpengine.netdna-ssl.com/wp-content/uploads/article-featured-bulking-diet.png');
+}
