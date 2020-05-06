@@ -197,7 +197,40 @@ h1{
   text-align: center;
 }
 
+#quotes{
+  font-size: 50px;
+  font-family:"Raleway", sans-serif;
+  color: #f79f08;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
 
+
+#achievements{
+  font-size: 50px;
+  color: #f79f08;
+  position: absolute;
+  top: 80px;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+
+
+
+#shop{
+  font-size: 50px;
+  color: #f79f08;
+  position: absolute;
+  letter-spacing: 2px;
+  top: 150px;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
 
 
 
