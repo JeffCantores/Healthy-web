@@ -391,3 +391,11 @@ h1{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#cardDeck{
+  background-color: #fabe58;
+}
+
+body{
+  background-color: #fabe58;
+}
