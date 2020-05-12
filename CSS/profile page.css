@@ -1,3 +1,6 @@
+
+
+
 h2{
   font-family: Righteous;
   font-size: 36px;
@@ -7,8 +10,8 @@ h2{
   line-height: 26.4px;
 }
 
-h4{
-   font-family: Lato;
+h4.card-title{
+   font-family: Righteous;
    font-size: 24px;
    font-style: normal;
    font-variant: normal;
@@ -29,6 +32,7 @@ h4{
 }
 body{
   font-family: Trebuchet MS;
+  background-color: #fabe58;
 }
 nav{
   background: #e76f51;
@@ -392,10 +396,6 @@ h1{
   background-size: cover;
 }
 
-#cardDeck{
-  background-color: #fabe58;
-}
-
-body{
+.container-fluid{
   background-color: #fabe58;
 }
