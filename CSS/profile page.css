@@ -10,6 +10,14 @@ h2{
   line-height: 26.4px;
 }
 
+h4{
+  font-family: Lato;
+}
+
+/* p{
+  font-family: Roboto;
+} */
+
 h4.card-title{
    font-family: Righteous;
    font-size: 24px;
