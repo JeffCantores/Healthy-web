@@ -1,5 +1,8 @@
-
-
+@media (max-width: 360px) {
+  .container{
+    width: auto;
+  }
+}
 
 h2{
   font-family: Righteous;
@@ -98,6 +101,7 @@ a.active,a:hover{
     font-size: 16px;
   }
 }
+
 @media (max-width: 858px){
   .checkbtn{
     display: block;
@@ -404,6 +408,6 @@ h1{
   background-size: cover;
 }
 
-.container-fluid{
+.container{
   background-color: #fabe58;
 }

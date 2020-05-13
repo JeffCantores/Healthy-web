@@ -9,105 +9,12 @@
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-	<style type="text/css">
 
-	.navbar-custom1 {
-    background-color: #e76f51;
-	}
-
-	.navbar-custom2 {
-		background-color: #e9c46a;
-  }
-
-	.jumbotron {
-		color: white;
-		background-image: url("images/socialize_low_opacity.png");
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		height: 75vh;
-		color: black;
-	}
-
-	.lead {
- 	 font-size: 1.25rem;
- 	 font-weight: 300;
-	}
-
-	hr.style {
-	border-top: 3px double #8c8b8b;
-	}
-
-	.feature .feature-item {
-  cursor: pointer;
-  position: relative;
-  display: block;
-  max-width: 25rem;
-  border-radius: 0.5rem;
-  overflow: hidden;
-}
-.feature .feature-item .feature-item-caption {
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: all 0.2s ease-in-out;
-  opacity: 0;
-  background-color: #e76f51;
-}
-.feature .feature-item .feature-item-caption:hover {
-  opacity: 1;
-}
-.feature .feature-item .feature-item-caption .feature-item-caption-content {
-  font-size: 1.5rem;
-}
-
-.feature-modal .feature-modal-title {
-  font-size: 2.25rem;
-  line-height: 2rem;
-}
-@media (min-width: 992px) {
-  .feature-modal .feature-modal-title {
-    font-size: 3rem;
-    line-height: 2.5rem;
-  }
-}
-.feature-modal .close {
-  position: absolute;
-  z-index: 1;
-  right: 1.5rem;
-  top: 1rem;
-  font-size: 3rem;
-  line-height: 3rem;
-  color: #1abc9c;
-  opacity: 1;
-
-}
-
-.display-4{
-  font-family: Righteous;
-}
-
-h2{
-  font-family: Righteous;
-}
-p{
-  font-family: Roboto;
-}
-
-	</style>
-	<script type="text/javascript">
-		$(".jumbotron").css({ height: $(window).height() + "px" });
-
-$(window).on("resize", function() {
-  $(".jumbotron").css({ height: $(window).height() + "px" });
-});
-
-	</script>
-
+    <link rel="stylesheet" type="text/css" href="CSS/index-stylesheet.css">
+	  <script type="text/javascript" src="JS\index-script.js"></script>
 
   </head>
   <body>
-
 
   	<nav class="navbar navbar-expand-lg navbar-dark sticky-top navbar-custom1 static-top">
   <div class="container">
@@ -232,7 +139,7 @@ $(window).on("resize", function() {
                                     <h2 class="feature-modal-title text-secondary text-uppercase mb-0">Step Count</h2><br><br>
                                     <!-- Modal - Image--><img class="img-fluid rounded mb-5" src="images/walking.png" alt="person walking icon" /><!--  Modal - Text-->
                                     <p class="mb-5">People who track their daily steps may not only be more active, they may also be less likely to develop health problems that lead to events like heart attacks or broken bones, a new study suggests. Most of them were nonsmokers in good healthy without any history of cardiovascular disease, diabetes, or depression.</p>
-                                    <button class="btn btn-success" href="#" data-dismiss="modal" style="font-family: 'Rubik', sans-serif; font-size: 14px;">P R O C E E D</button>
+                                    <a class="btn btn-success" href="#" style="font-family: 'Rubik', sans-serif; font-size: 14px;">P R O C E E D</a>
                                 </div>
                             </div>
                         </div>
@@ -256,7 +163,7 @@ $(window).on("resize", function() {
                                     <h2 class="feature-modal-title text-secondary text-uppercase mb-0">Rewards</h2><br><br>
                                     <!-- Modal - Image--><img class="img-fluid rounded mb-5" src="images/rewards.png" alt="giftbox icon" /><!--  Modal - Text-->
                                     <p class="mb-5">**Insert something about the significance of having a reward system in an health app**</p>
-                                    <button class="btn btn-success" href="#" data-dismiss="modal" style="font-family: 'Rubik', sans-serif; font-size: 14px;">P R O C E E D</button>
+                                    <a class="btn btn-success" href="#" style="font-family: 'Rubik', sans-serif; font-size: 14px;">P R O C E E D</a>
                                 </div>
                             </div>
                         </div>
@@ -280,7 +187,7 @@ $(window).on("resize", function() {
                                     <h2 class="feature-modal-title text-secondary text-uppercase mb-0">Records</h2><br><br>
                                     <!-- Modal - Image--><img class="img-fluid rounded mb-5" src="images/data.png" alt="User graph icon" /><!--  Modal - Text-->
                                     <p class="mb-5">Recorded data of all significant information to the user.</p>
-                                    <button class="btn btn-success" href="#" data-dismiss="modal" style="font-family: 'Rubik', sans-serif; font-size: 14px;">P R O C E E D</button>
+                                    <a class="btn btn-success" href="#" style="font-family: 'Rubik', sans-serif; font-size: 14px;">P R O C E E D</a>
                                 </div>
                             </div>
                         </div>
@@ -304,7 +211,7 @@ $(window).on("resize", function() {
                                     <h2 class="feature-modal-title text-secondary text-uppercase mb-0">Workout Routine</h2><br><br>
                                     <!-- Modal - Image--><img class="img-fluid rounded mb-5" src="images/weights.png" alt="" /><!--  Modal - Text-->
                                     <p class="mb-5">Physical activity or exercise can improve your health and reduce the risk of developing several diseases like type 2 diabetes, cancer and cardiovascular disease. Physical activity and exercise can have immediate and long-term health benefits. Most importantly, regular activity can improve your quality of life. A minimum of 30 minutes a day can allow you to enjoy these benefits.</p>
-                                    <button class="btn btn-success" href="workout-pages.html" data-dismiss="modal"style="font-family: 'Rubik', sans-serif; font-size: 14px;"></i>P R O C E E D</button>
+                                    <a class="btn btn-success" href="workout-pages.html" style="font-family: 'Rubik', sans-serif; font-size: 14px;"></i>P R O C E E D</a>
                                 </div>
                             </div>
                         </div>
@@ -328,7 +235,7 @@ $(window).on("resize", function() {
                                     <h2 class="feature-modal-title text-secondary text-uppercase mb-0">Diet Plan</h2><br><br>
                                     <!-- Modal - Image--><img class="img-fluid rounded mb-5" src="images/diet.png" alt="" /><!--  Modal - Text-->
                                     <p class="mb-5">Good nutrition is an important part of leading a healthy lifestyle. Combined with physical activity, your diet can help you to reach and maintain a healthy weight, reduce your risk of chronic diseases (like heart disease and cancer), and promote your overall health.</p>
-                                    <button class="btn btn-success" target="diet-plan-pages/diet-plans.html" data-dismiss="modal"style="font-family: 'Rubik', sans-serif; font-size: 14px;"></i>P R O C E E D</button>
+                                    <a class="btn btn-success" href="diet-plan-pages/diet-plans.html" style="font-family: 'Rubik', sans-serif; font-size: 14px;"></i>P R O C E E D</a>
                                 </div>
                             </div>
                         </div>
@@ -352,7 +259,7 @@ $(window).on("resize", function() {
                                     <h2 class=" feature-modal-title text-secondary text-uppercase mb-0">Calculate BMI</h2><br><br>
                                     <!-- Modal - Image--><img class="img-fluid rounded mb-5" src="images/kg.png" alt="" /><!-- Modal - Text-->
                                     <p class="mb-5">Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women. It is the recommended method for diagnosing overweight and obesity. It evaluates the relationship between body weight and height. While BMI is not a direct measure of excess body fat, it expresses the weight-height relationship and provides a more accurate measure than body weight alone.</p>
-                                     <button class="btn btn-success" href="#" data-dismiss="modal"style="font-family: 'Rubik', sans-serif; font-size: 14px;"></i>P R O C E E D</button>
+                                     <a class="btn btn-success" href="#" style="font-family: 'Rubik', sans-serif; font-size: 14px;"></i>P R O C E E D</a>
                                 </div>
                             </div>
                         </div>
@@ -380,8 +287,8 @@ $(window).on("resize", function() {
 
             <footer class="page-footer font-small blue my-3 text-center">
             	<!-- Copyright -->
-  				<div class="footer-copyright py-3" style="font-family: Lato;">© 2020 Copyright: Cradle Boys.
-  				</div>
+    				<div class="footer-copyright py-3" style="font-family: Lato;">© 2020 Copyright: Cradle Boys.
+    				</div>
             </footer>
         </section>
 
