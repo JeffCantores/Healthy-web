@@ -208,12 +208,6 @@ h1{
   display: flex;
 }
 
-.information1{
-  height: 100%;
-  width: 100%;
-  display: flex;
-}
-
 #muscleType{
   font-size: 75px;
   font-family:"Raleway", sans-serif;

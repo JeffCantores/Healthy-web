@@ -12,7 +12,8 @@ nav{
   background: #e76f51;
   height: 80px;
   width: 100%;
-  z-index: auto;
+  z-index: 2;
+  z-index: absolute;
 }
 label.logo{
   color: white;
