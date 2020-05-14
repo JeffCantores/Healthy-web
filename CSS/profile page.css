@@ -171,16 +171,6 @@ img{
   width: 100%;
 }
 
-.carousel-caption{
-  top: 50%;
-  transform: translateY(-50%);
-  bottom: initial!important;
-}
-
-.carousel-caption h4{
-  color: white;
-  font-size: 42px;
-}
 
 h1{
   text-align: center;
@@ -353,7 +343,15 @@ h1{
     display: flex;
     flex-direction: column;
   }
-}
+  .sectionAchievements{
+    display: flex;
+    background-size: cover;
+  height: calc(200vh - 80px);
+  }
+  .Achievements{
+    font-size:150px;
+  }
+  }
 
 .content a{
   margin: 22px 0;
