@@ -47,21 +47,79 @@
             <h2>CARNIVORE</h2>
             <br/>
             <h4><b>Foods to eat</b></h4>
-            <br>
             <p>The Carnivore Diet includes only animal products and excludes all other foods.</p>
             <br>
             <p>Specifically, someone on the Carnivore Diet can eat:</p>
-            <ul class="list-unstyled">
-              <li><strong>Vegetables: </strong>broccoli, cauliflower, potatoes, green beans, peppers, etc.</li>
-              <li><strong>Fruits: </strong>apples, berries, bananas, kiwi, oranges, etc.</li>
-              <li><strong>High-lactose dairy: </strong>milk, yogurt, soft cheese, etc.</li>
-              <li><strong>Legumes:</strong> beans, lentils, etc.</li>
-              <li><strong>Nuts and seeds: </strong>almonds, pumpkin seeds, sunflower seeds, pistachios, etc.</li>
-              <li><strong>Grains:</strong> rice, wheat, bread, quinoa, pasta, etc.</li>
-              <li><strong>Alcohol:</strong> beer, wine, liquor, etc.</li>
-              <li><strong>Sugars: </strong>table sugar, maple syrup, brown sugar, etc.</li>
-              <li><strong>Beverages other than water:</strong> soda, coffee, tea, fruit juice, etc.</li>
-            </ul>
+            <table class="table table-bordered">
+              <tbody>
+                <tr>
+                  <td><strong>Meat: </strong></td>
+                  <td>beef, chicken, turkey, organ meats, lamb, pork, etc.</td>
+                </tr>
+                <tr>
+                  <td><strong>Fish: </strong></td>
+                  <td>salmon, mackerel, sardines, crab, lobster, tilapia, herring, etc.</td>
+                </tr>
+                <tr>
+                  <td><strong>Other animal products: </strong></td>
+                  <td>eggs, lard, bone marrow, bone broth, etc.</td>
+                </tr>
+                <tr>
+                  <td><strong>Low-lactose dairy (in small amounts): </strong></td>
+                  <td>heavy cream, hard cheese, butter, etc.</td>
+                </tr>
+                <tr>
+                  <td><strong>Water</strong></td>
+                </tr>
+              </tbody>
+            </table>
+
+            <br>
+
+            <h4><b>Foods to avoid</b></h4>
+            <p>All foods that do not come from animals are excluded from the Carnivore Diet.</p>
+            <br>
+            <p>Restricted foods include:</p>
+            <table class="table table-bordered">
+              <tbody>
+                <tr>
+                  <td><strong>Vegetables: </strong></td>
+                  <td>broccoli, cauliflower, potatoes, green beans, peppers, etc.</td>
+                </tr>
+                <tr>
+                  <td><strong>Fruits: </strong></td>
+                  <td>apples, berries, bananas, kiwi, oranges, etc.</td>
+                </tr>
+                <tr>
+                  <td><strong>High-lactose dairy: </strong></td>
+                  <td>milk, yogurt, soft cheese, etc.</td>
+                </tr>
+                <tr>
+                  <td><strong>Legumes:</strong></td>
+                  <td>beans, lentils, etc.</td>
+                </tr>
+                <tr>
+                  <td><strong>Nuts and seeds: </strong></td>
+                  <td>almonds, pumpkin seeds, sunflower seeds, pistachios, etc.</td>
+                </tr>
+                <tr>
+                  <td><strong>Grains:</strong></td>
+                  <td>rice, wheat, bread, quinoa, pasta, etc.</td>
+                </tr>
+                <tr>
+                  <td><strong>Alcohol:</strong></td>
+                  <td>beer, wine, liquor, etc.</td>
+                </tr>
+                <tr>
+                  <td><strong>Sugars: </strong></td>
+                  <td>table sugar, maple syrup, brown sugar, etc.</td>
+                </tr>
+                <tr>
+                  <td><strong>Beverages other than water:</strong></td>
+                  <td>soda, coffee, tea, fruit juice, etc.</td>
+                </tr>
+              </tbody>
+            </table>
 
             <br>
             <h4><b>What is a Carnivore Diet?</b></h4>
@@ -80,9 +138,232 @@
               <p>The Carnivore Diet encourages drinking water and bone broth but discourages drinking tea, coffee, and other drinks made from plants.</p>
               <p>It provides no specific guidelines regarding calorie intake, serving sizes, or how many meals or snacks to eat per day. Most proponents of the diet suggest eating as often as you desire.</p>
             <br>
-            <h4><b>Can it help you lose weight?</b></h4>
+            <h4><b>Sample menu</b></h4>
+            <p>Here's a five-day sample menu for the Carnivore Diet: (<i><b>click the button to view menu</b></i>)</p>
+
+            <!-- Button trigger (Day 1) -->
+            <button type="button" class="btn btn-sm" data-toggle="modal" data-target="#day1" style="font-family: 'Rubik', sans-serif; font-size: 14px; background-color: #e9c46a; width: 100%; Text-align: center;">
+              Day 1
+            </button><br><br>
+
+            <!-- Button trigger (Day 2) -->
+            <button type="button" class="btn btn-sm" data-toggle="modal" data-target="#day2" style="font-family: 'Rubik', sans-serif; font-size: 14px; background-color: #e9c46a; width: 100%; Text-align: center;">
+              Day 2
+            </button><br><br>
+
+            <!-- Button trigger (Day 3) -->
+            <button type="button" class="btn btn-sm" data-toggle="modal" data-target="#day3" style="font-family: 'Rubik', sans-serif; font-size: 14px; background-color: #e9c46a; width: 100%; Text-align: center;">
+              Day 3
+            </button><br><br>
+
+            <!-- Button trigger (Day 4) -->
+            <button type="button" class="btn btn-sm" data-toggle="modal" data-target="#day4" style="font-family: 'Rubik', sans-serif; font-size: 14px; background-color: #e9c46a; width: 100%; Text-align: center;">
+              Day 4
+            </button><br><br>
+
+            <!-- Button trigger (Day 5) -->
+            <button type="button" class="btn btn-sm" data-toggle="modal" data-target="#day5" style="font-family: 'Rubik', sans-serif; font-size: 14px; background-color: #e9c46a; width: 100%; Text-align: center;">
+              Day 5
+            </button><br><br>
+
         </div>
       </div>
+
+      <!-- Modal (day 1)-->
+      <div class="modal" id="day1" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title" id="exampleModalCenteredLabel">Day 1</h2>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <table class="table table-bordered">
+              <tbody>
+                <tr>
+                  <th><h5><b>Breakfast</b></h5></th>
+                  <td>eggs, bacon, sardines</td>
+                </tr>
+                <tr>
+                  <th><h5><b>Lunch</b></h5></th>
+                  <td>turkey burger patty, salmon jerky, beef tips</td>
+                </tr>
+                <tr>
+                  <th><h5><b>Dinner</b></h5></th>
+                  <td>filet mignon, crab, chicken liver</td>
+                </tr>
+                <tr>
+                  <th><h5><b>Snacks</b></h5></th>
+                  <td>a small amount of Parmesan cheese, jerky</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal (day 2)-->
+      <div class="modal" id="day2" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title" id="exampleModalCenteredLabel">Day 2</h2>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <table class="table table-bordered">
+              <tbody>
+                <tr>
+                  <th><h5><b>Breakfast</b></h5></th>
+                  <td>shrimp, eggs, a small glass of heavy cream</td>
+                </tr>
+                <tr>
+                  <th><h5><b>Lunch</b></h5></th>
+                  <td>strip steak, tuna fish, beef jerky</td>
+                </tr>
+                <tr>
+                  <th><h5><b>Dinner</b></h5></th>
+                  <td>lamb chops, scallops, beef liver</td>
+                </tr>
+                <tr>
+                  <th><h5><b>Snacks</b></h5></th>
+                  <td>a small amount of hard Cheddar cheese, bone broth</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal (day 3)-->
+      <div class="modal" id="day3" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title" id="exampleModalCenteredLabel">Day 3</h2>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <table class="table table-bordered">
+              <tbody>
+                <tr>
+                  <th><h5><b>Breakfast</b></h5></th>
+                  <td>eggs, salmon, turkey sausage</td>
+                </tr>
+                <tr>
+                  <th><h5><b>Lunch</b></h5></th>
+                  <td>beef tips, pork chops, mackerel</td>
+                </tr>
+                <tr>
+                  <th><h5><b>Dinner</b></h5></th>
+                  <td>turkey burger patty, a small amount of Parmesan cheese, bone marrow</td>
+                </tr>
+                <tr>
+                  <th><h5><b>Snacks</b></h5></th>
+                  <td>hard-boiled eggs, shrimp</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal (day 4)-->
+      <div class="modal" id="day4" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title" id="exampleModalCenteredLabel">Day 4</h2>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <table class="table table-bordered">
+              <tbody>
+                <tr>
+                  <th><h5><b>Breakfast</b></h5></th>
+                  <td>trout, shredded chicken, bacon</td>
+                </tr>
+                <tr>
+                  <th><h5><b>Lunch</b></h5></th>
+                  <td>beef meatballs, small amount Cheddar cheese, salmon jerky</td>
+                </tr>
+                <tr>
+                  <th><h5><b>Dinner</b></h5></th>
+                  <td>crab cooked in lard, filet mignon</td>
+                </tr>
+                <tr>
+                  <th><h5><b>Snacks</b></h5></th>
+                  <td>sardines, beef jerky</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal (day 5)-->
+      <div class="modal" id="day5" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title" id="exampleModalCenteredLabel">Day 5</h2>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <table class="table table-bordered">
+              <tbody>
+                <tr>
+                  <th><h5><b>Breakfast</b></h5></th>
+                  <td>eggs, chicken and turkey sausage links</td>
+                </tr>
+                <tr>
+                  <th><h5><b>Lunch</b></h5></th>
+                  <td>lamb roast, chicken liver, pork chop</td>
+                </tr>
+                <tr>
+                  <th><h5><b>Dinner</b></h5></th>
+                  <td>flank steak, scallops cooked in butter, a small glass of heavy cream</td>
+                </tr>
+                <tr>
+                  <th><h5><b>Snacks</b></h5></th>
+                  <td>bone broth, turkey jerky</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
 
   </body>
