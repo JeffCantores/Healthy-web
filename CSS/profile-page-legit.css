@@ -13,6 +13,10 @@ nav{
   height: 80px;
   width: 100%;
   z-index: 2;
+<<<<<<< HEAD
+=======
+  z-index: auto;
+>>>>>>> 894c7a5c54e25772653117a66311293ce5faed1a
   position: absolute;
 }
 label.logo{
