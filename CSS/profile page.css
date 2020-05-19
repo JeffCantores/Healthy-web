@@ -396,3 +396,12 @@ h1{
 .container{
   background-color: #fabe58;
 }
+
+.huwaw{
+  background: url(../Images/man_run_2000x962.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+}
+
