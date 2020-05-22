@@ -2,6 +2,10 @@ body, html {
   height: 100%;
 }
 
+a{
+  font-family: Righteous;
+}
+
 .navbar-custom1 {
   background-color: #e76f51;
 }
@@ -178,14 +182,14 @@ font-family: Roboto;
 /*End of Group - kung gusto mag dagdag copy the whole group*/
 
 .responsive-style{
-  color: white; 
-  padding-top: 15%; 
+  color: white;
+  padding-top: 15%;
   text-align: center;
 }
 
 .responsive-style-huwaw{
-  color: white; 
-  padding-top: 30%; 
+  color: white;
+  padding-top: 30%;
   padding-left: 10%;
 }
 
@@ -195,8 +199,8 @@ font-family: Roboto;
   }
 
   .responsive-style-huwaw{
-  color: white; 
-  padding-top: 65%; 
+  color: white;
+  padding-top: 65%;
   text-align: center;
 }
 }
