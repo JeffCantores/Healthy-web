@@ -1,0 +1,287 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: Trebuchet MS;
+}
+nav{
+  background: #e76f51;
+  height: 80px;
+  width: 100%;
+  z-index: 2;
+  position: absolute;
+}
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  background: #003049;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 952px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #e63946;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+      font-weight: bold;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #003049;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+section{
+  background-color: #fabe58;;
+  background-size: cover;
+  height: calc(100vh - 80px);
+}
+
+
+img{
+  height: 100%;
+  width: 100%;
+  filter: brightness(50%);
+}
+
+#imageSlider{
+  width: 100%;
+}
+
+.carousel-caption{
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial!important;
+}
+
+.carousel-caption h4{
+  color: white;
+  font-size: 36px;
+}
+
+h1{
+  text-align: center;
+}
+
+
+.miniNavBar{
+  background-color: white;
+  height: 220px;
+  width: 280px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 8px;
+  box-shadow: 0 0 20px 100px rgba(233,144,7,0,7);
+
+}
+
+.information{
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+#quotes{
+  font-size: 50px;
+  font-family:"Raleway", sans-serif;
+  color: #f79f08;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+
+
+#achievements{
+  font-size: 50px;
+  color: #f79f08;
+  position: absolute;
+  top: 80px;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+
+
+
+#shop{
+  font-size: 50px;
+  color: #f79f08;
+  position: absolute;
+  letter-spacing: 2px;
+  top: 150px;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+
+
+.achievementCards{
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-radius: 8px;
+
+}
+
+.achievementCards h2{
+  font-size: 60px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+#Achievements{
+  color: white;
+ font-size:5vw;
+}
+
+
+.services{
+  display: flex;
+  align-items: center;
+}
+
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  margin: 20px;
+  padding: 20px;
+  border: 5px solid white;
+
+  transition: all .3s ease;
+  color: white;
+
+}
+.content .fas{
+  font-size: 70px;
+  margin: 16px 0;
+}
+
+.content >*{
+  flex: 1 1 100%;
+}
+.content:hover{
+  color:white;
+}
+
+
+
+.content-1:hover{
+  border-color: #003049;
+  background: #003049;
+  border-radius: 4px;
+}
+
+.content-2:hover{
+  border-color: #003049;
+  background: #003049;
+  border-radius: 4px;
+}
+.content-3:hover{
+  border-color: #003049;
+  background: #003049;
+  border-radius: 4px;
+}
+
+.content h3{
+  font-size: 25px;
+  margin: 16px 0;
+  letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+.content p{
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 900px){
+  .services{
+    display: flex;
+    flex-direction: column;
+  }
+  .sectionAchievements{
+    display: flex;
+    background-size: cover;
+  height: calc(200vh - 80px);
+  }
+  .Achievements{
+    font-size:150px;
+  }
+  }

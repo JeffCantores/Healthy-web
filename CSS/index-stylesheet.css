@@ -1,0 +1,250 @@
+body, html {
+  height: 100%;
+}
+
+a{
+  font-family: Righteous;
+}
+
+.navbar-custom1 {
+  background-color: #e76f51;
+}
+
+.colored-bg {
+  background-color: #fabe58;
+}
+
+.page-section {
+  padding: 3rem 0;
+}
+.page-section .page-section-heading {
+  font-size: 2.25rem;
+  line-height: 2rem;
+}
+@media (min-width: 992px) {
+  .page-section .page-section-heading {
+    font-size: 3rem;
+    line-height: 2.5rem;
+  }
+}
+
+.jumbotron {
+  color: white;
+  background-image: url("../Images/socialize_low_opacity.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75vh;
+  color: black;
+}
+
+.lead {
+ font-size: 1.25rem;
+ font-weight: 300;
+}
+
+hr.style {
+border-top: 3px double #8c8b8b;
+}
+
+.feature .feature-item {
+cursor: pointer;
+position: relative;
+display: block;
+max-width: 25rem;
+border-radius: 0.5rem;
+overflow: hidden;
+}
+.feature .feature-item .feature-item-caption {
+position: absolute;
+top: 0;
+left: 0;
+transition: all 0.2s ease-in-out;
+opacity: 0;
+background-color: #e76f51;
+}
+.feature .feature-item .feature-item-caption:hover {
+opacity: 1;
+}
+.feature .feature-item .feature-item-caption .feature-item-caption-content {
+font-size: 1.5rem;
+}
+
+.feature-modal .feature-modal-title {
+font-size: 2.25rem;
+line-height: 2rem;
+}
+@media (min-width: 992px) {
+.feature-modal .feature-modal-title {
+  font-size: 3rem;
+  line-height: 2.5rem;
+}
+}
+.feature-modal .close {
+position: absolute;
+z-index: 1;
+right: 1.5rem;
+top: 1rem;
+font-size: 3rem;
+line-height: 3rem;
+color: #1abc9c;
+opacity: 1;
+
+}
+
+.display-4{
+font-family: Righteous;
+}
+
+h2{
+font-family: Righteous;
+}
+p{
+font-family: Roboto;
+}
+
+/*WORKOUT PAGE STYLESHEET*/
+/*Group*/
+.huwaw{
+  background: url(../Images/man_run_2000x962.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+@media (max-width: 858px){
+  .huwaw {
+    /*background-attachment: scroll;*/
+    height: 100%
+  }
+}
+
+
+/*End of Group - kung gusto mag dagdag copy the whole group and change name*/
+
+/*Group*/
+.huwaw2{
+  background: url(../Images/rope_2000x962.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80%;
+}
+
+@media (max-width: 858px){
+  .huwaw2 {
+    /*background-attachment: scroll;*/
+    height: 50%
+  }
+}
+
+/*End of Group - kung gusto mag dagdag copy the whole group*/
+
+/*Group*/
+.huwaw3{
+  background: url(../Images/man_lift_2000x962.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80%;
+}
+
+@media (max-width: 858px){
+  .huwaw3 {
+    /*background-attachment: scroll;*/
+    height: 50%
+  }
+}
+
+/*End of Group - kung gusto mag dagdag copy the whole group*/
+
+/*Group*/
+.huwaw4{
+  background: url(../Images/woman_stand_2000x962.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+@media (max-width: 858px){
+  .huwaw4 {
+    /*background-attachment: scroll;*/
+    height: 100%
+  }
+}
+
+/*End of Group - kung gusto mag dagdag copy the whole group*/
+
+.responsive-style{
+  color: white;
+  padding-top: 15%;
+  text-align: center;
+}
+
+.responsive-style-huwaw{
+  color: white;
+  padding-top: 30%;
+  padding-left: 10%;
+}
+
+@media (max-width: 858px){
+  .responsive-style{
+    padding-top: 25%;
+  }
+
+  .responsive-style-huwaw{
+  color: white;
+  padding-top: 65%;
+  text-align: center;
+}
+}
+/*END OF WORKOUT STYLESHEET*/
+
+/*WORKOUT PAGES STYLESHEET*/
+
+.beginner1stPhoto{
+  background: url(../Images/man_woman_jog_2000x962.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+@media (max-width: 858px){
+  .huwaw {
+    /*background-attachment: scroll;*/
+    height: 100%
+  }
+}
+
+.low-brightness{
+  filter: brightness(50%);
+}
+
+#imageSlider{
+  width: 100%;
+}
+
+.carousel-caption{
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial!important;
+}
+
+.carousel-caption h4{
+  color: white;
+  font-size: 42px;
+}
+
+
+#imageSlider2{
+  width: 100%;
+}
+
+/*END OF WORKOUT PAGES STYLESHEET*/
