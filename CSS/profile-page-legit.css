@@ -205,7 +205,7 @@ h1{
   color: white;
 }
 
-#Achievements{
+#Achievementsyey{
   color: white;
  font-size:5vw;
 }
@@ -355,9 +355,11 @@ h1{
   display: inline-flex;
   transition: 0.2s;
 }
+
 .card .bottom-text .btn a:hover{
   transform: scale(0.9);
 }
+
 @media screen and (max-width: 978px) {
   .container{
     flex-wrap: wrap;
@@ -370,6 +372,6 @@ h1{
   .profileCards{
     display: flex;
     background-size: cover;
-  height: calc(300vh - 80px);
+    height: calc(300vh - 80px);
   }
 }
