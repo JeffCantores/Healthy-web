@@ -8,6 +8,7 @@ a{
 
 .navbar-custom1 {
   background-color: #e76f51;
+  z-index: 5;
 }
 
 .colored-bg {
@@ -15,7 +16,7 @@ a{
 }
 
 .page-section {
-  padding: 3rem 0;
+  padding: 1rem 0;
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
@@ -30,7 +31,7 @@ a{
 
 .jumbotron {
   color: white;
-  background-image: url("../Images/socialize_low_opacity.png");
+  background-image: url("../images/socialize_low_opacity.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -41,6 +42,17 @@ a{
 .lead {
  font-size: 1.25rem;
  font-weight: 300;
+}
+
+.biceps{
+  background-image: url("../images/barbell.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bordermoto{
+  border: 2px solid black;
 }
 
 hr.style {
@@ -62,12 +74,14 @@ left: 0;
 transition: all 0.2s ease-in-out;
 opacity: 0;
 background-color: #e76f51;
+z-index: 1;
 }
 .feature .feature-item .feature-item-caption:hover {
 opacity: 1;
 }
 .feature .feature-item .feature-item-caption .feature-item-caption-content {
 font-size: 1.5rem;
+font-family: Rubik;
 }
 
 .feature-modal .feature-modal-title {
@@ -92,11 +106,19 @@ opacity: 1;
 
 }
 
+.rubik-font{
+  font-family: Rubik;
+}
+
 .display-4{
 font-family: Righteous;
 }
 
 h2{
+font-family: Righteous;
+}
+
+h3{
 font-family: Righteous;
 }
 p{
@@ -200,7 +222,7 @@ font-family: Roboto;
 
   .responsive-style-huwaw{
   color: white;
-  padding-top: 65%;
+  padding-top: 90%;
   text-align: center;
 }
 }
@@ -245,6 +267,12 @@ font-family: Roboto;
 
 #imageSlider2{
   width: 100%;
+}
+
+div.first {
+  /*setting alpha = 0.1*/
+  background: rgba(255, 255, 255, 0.3);
+  color: white;
 }
 
 /*END OF WORKOUT PAGES STYLESHEET*/
