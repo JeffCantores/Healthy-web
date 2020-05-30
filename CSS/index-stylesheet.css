@@ -128,7 +128,7 @@ font-family: Roboto;
 /*WORKOUT PAGE STYLESHEET*/
 /*Group*/
 .huwaw{
-  background: url(../Images/man_run_2000x962.png);
+  background: url(../images/man_run_2000x962.png);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -148,7 +148,7 @@ font-family: Roboto;
 
 /*Group*/
 .huwaw2{
-  background: url(../Images/rope_2000x962.png);
+  background: url(../images/rope_2000x962.png);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -167,7 +167,7 @@ font-family: Roboto;
 
 /*Group*/
 .huwaw3{
-  background: url(../Images/man_lift_2000x962.png);
+  background: url(../images/man_lift_2000x962.png);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -186,7 +186,7 @@ font-family: Roboto;
 
 /*Group*/
 .huwaw4{
-  background: url(../Images/woman_stand_2000x962.png);
+  background: url(../images/woman_stand_2000x962.png);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -231,7 +231,7 @@ font-family: Roboto;
 /*WORKOUT PAGES STYLESHEET*/
 
 .beginner1stPhoto{
-  background: url(../Images/man_woman_jog_2000x962.png);
+  background: url(../images/man_woman_jog_2000x962.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
