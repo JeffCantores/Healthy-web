@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Healthy - Exercise</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="CSS/index-stylesheet.css">
+
+  </head>
+<body class="colored-bg">
+
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top navbar-custom1 static-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <i class="fas fa-heartbeat">&nbsp&nbspHealthy</i>
+              </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"><i class="fas fa-home">&nbspHome</i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="workout.html"><i class="fas fa-dumbbell">&nbspWorkout Routines</i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="diet-plan-pages/diet-plans.html"><i class="fas fa-utensils">&nbspDiet Plans</i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about-us-pages/about-us-page-main.html"><i class="fas fa-user-circle">&nbspProfile</i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-cogs">&nbspSettings</i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="imageSlider" class="border border-dark">
+        <div id="headerSlider" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#headerSlider" data-slide-to="0" class="active"></li>
+            <li data-target="#headerSlider" data-slide-to="1"></li>
+            <li data-target="#headerSlider" data-slide-to="2"></li>
+            <li data-target="#headerSlider" data-slide-to="3"></li>
+            <li data-target="#headerSlider" data-slide-to="4"></li>
+            <li data-target="#headerSlider" data-slide-to="5"></li>
+            <li data-target="#headerSlider" data-slide-to="6"></li>
+            <li data-target="#headerSlider" data-slide-to="7"></li>
+            <li data-target="#headerSlider" data-slide-to="8"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="#biceps">
+                    <img class="d-block img-fluid low-brightness" src="images/biceps_2000x950.png" alt="First slide - Biceps">
+              <div class="carousel-caption">
+                <h4>Biceps</h4>
+              </div></a>
+            </div>
+            <div class="carousel-item">
+                <a href="triceps.html">
+                    <img class="d-block img-fluid low-brightness" src="images/triceps_2000x950.png" alt="Second slide - Triceps">
+              <div class="carousel-caption">
+                <h4>Triceps</h4>
+              </div></a>
+            </div>
+            <div class="carousel-item">
+                <a href="shoulders.html">
+                    <img class="d-block img-fluid low-brightness" src="images/shoulders_2000x950.png" alt="Third slide - Shoulder">
+              <div class="carousel-caption">
+                <h4>Shoulders</h4>
+              </div></a>
+            </div>
+            <div class="carousel-item">
+                <a href="chest.html">
+                    <img class="d-block img-fluid low-brightness" src="images/chest_2000x950.png" alt="Fourth slide - Chest">
+              <div class="carousel-caption">
+                <h4>Chest</h4>
+              </div></a>
+            </div>
+            <div class="carousel-item">
+                <a href="abs.html">
+                    <img class="d-block img-fluid low-brightness" src="images/abs_2000x950.png" alt="Fifth slide - Abs">
+              <div class="carousel-caption">
+                <h4>Abs</h4>
+              </div></a>
+            </div>
+            <div class="carousel-item">
+                <a href="back.html">
+                    <img class="d-block img-fluid low-brightness" src="images/back_2000x950.png" alt="Sixth slide - Back">
+              <div class="carousel-caption">
+                <h4>Back</h4>
+              </div></a>
+            </div>
+            <div class="carousel-item">
+                <a href="thigh.html">
+                    <img class="d-block img-fluid low-brightness" src="images/thigh_2000x950.png" alt="Seventh slide - Thighs">
+              <div class="carousel-caption">
+                <h4>Thighs</h4>
+              </div></a>
+            </div>
+            <div class="carousel-item">
+                <a href="glutes.html">
+                    <img class="d-block img-fluid low-brightness" src="images/glutes_2000x950.png" alt="Eight slide - Glutes">
+              <div class="carousel-caption">
+                <h4>Glutes</h4>
+              </div></a>
+            </div>
+            <div class="carousel-item">
+                <a href="calves.html">
+                    <img class="d-block img-fluid low-brightness" src="images/calves_2000x950.png" alt="Ninth slide - Calves">
+              <div class="carousel-caption">
+                <h4>Calves</h4>
+              </div></a>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#headerSlider" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#headerSlider" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" id="quotess" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+
+<!-- Section for the Biceps -->
+
+
+        <div class="d-flex flex-column colored-bg page-section">
+
+          <div class="p-3 mt-1 mb-3">
+            <div class="  border border border-light bg-dark p-2">
+            <p class="lead text-justify p-2 text-white">The <span class="font-weight-bold text-dark mark rounded-lg">Biceps</span> take up a ton of prime real estate on
+              the front of your arm, and they're probably the easiest part of your body to show off no matter
+              the situation, or who you're trying to impress. Whether you rock a dress shirt or a tank top, a
+              strong set of guns are sure to make waves.</p>
+            </div>
+          </div>
+
+          <div class="px-3 py-1">
+            <div class="py-2 text-center rounded border border-light biceps">
+              <p class="display-4 text-white">Workouts</p>
+            </div>
+
+<!-- exercise 1 -->
+            <div class="mx-auto" data-toggle="collapse" data-target="#barbellCurl">
+              <div class="text-center bg-dark border border-light"><h4 class="text-white rubik-font p-1">Standing Barbell Curl</h4>
+              </div>
+              <div class="collapse" id="barbellCurl">
+                <div class="card mb-3">
+                    <div class="card-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Card - Title-->
+                                    <h2 class="text-secondary text-uppercase mb-0">Standing Barbell Curl</h2><br><br>
+                                    <!-- Card - Image-->
+                                    <img class="img-fluid rounded mb-5" src="images/standing-barbell-curl.gif" alt="Standing Barbell Curl" />
+                                    <!--  Card - Text-->
+                                    <p class="mb-5 font-weight-bold">Target Muscles: Biceps brachii</p>
+                                    <p class="mb-5 text-justify"><strong>How to do it:<br></strong> Grab the barbell with an underhand grip, with your your hands positioned
+                                      about as wide as your hips. To emphasize the inner portion of the bicep, take a wider grip; to target
+                                      the outer part of the muscle, bring your hands closer together. Start holding the bar at hip height,
+                                      then squeeze your core and contract your biceps to curl the bar up to shoulder height. Squeeze your
+                                      biceps at the top of the movement, then slowly lower the weight back to the starting position, controlling
+                                      the weight through the eccentric movement. Make sure to keep your feet solidly planted throughout the exercise,
+                                      and don't use your hips to lift the weight.
+                                    <div>
+                                    <button class="btn btn-secondary" data-toggle="collapse" data-target="#barbellCurl">Close</button>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+<!-- exercise 2 -->
+            <div class="mx-auto" data-toggle="collapse" data-target="#concentrationCurl">
+              <div class="text-center bg-dark border border-light"><h4 class="text-white rubik-font p-1">Concentration Curl</h4>
+              </div>
+              <div class="collapse" id="concentrationCurl">
+                <div class="card mb-3">
+                    <div class="card-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                      <!-- Card - Title-->
+                                      <h3 class="feature-modal-title text-secondary text-uppercase mb-0">Concentration Curl</h3><br><br>
+                                      <!-- Card - Image-->
+                                      <img class="img-fluid rounded mb-5" src="images/concentration-curl.gif" alt="Concentration Curl" />
+                                      <!--  Card - Text-->
+                                      <p class="mb-5 font-weight-bold">Target Muscle: Biceps brachii</p>
+                                      <p class="mb-5 text-justify"><strong>How to do it:<br></strong> You'll need a dumbbell and a bench to start.
+                                        Sit on the bench, spreading your legs. Rest your arm holding the dumbbell on the same side leg, just below
+                                        the knee, so that the weight hangs down between your legs. Keep your torso upright by stabilizing your off-
+                                        hand on your thigh. Curl the weight up, focusing on squeezing the bicep, pause at the top, then lower back
+                                        into the original position.
+                                    <div>
+                                    <button class="btn btn-secondary" data-toggle="collapse" data-target="#concentrationCurl">Close</button>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+<!-- exercise 3 -->
+            <div class="mx-auto" data-toggle="collapse" data-target="#standingResistanceHammerCurl">
+              <div class="text-center bg-dark border border-light"><h4 class="text-white rubik-font p-1 overflow-hidden">Resistance Band Hammer</h4>
+              </div>
+              <div class="collapse" id="standingResistanceHammerCurl">
+                <div class="card mb-3">
+                    <div class="card-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                  <!-- Card - Title-->
+                                  <h3 class="feature-modal-title text-secondary text-uppercase mb-0">Standing Resistance Band Hammer Curl</h3><br><br>
+                                  <!-- Card - Image-->
+                                  <img class="img-fluid rounded mb-5" src="images/standing-resistance-band-hammer-curl.gif" alt="standing-resistance-band-hammer-curl.gif" />
+                                  <!--  Card - Text-->
+                                  <p class="mb-5 font-weight-bold">Target Muscle: Brachialis</p>
+                                  <p class="mb-5 text-justify"><strong>How to do it:<br></strong> Step on the center of a resistance band, gripping one
+                                    end of the implement in each hand. Hold the band with your palms parallel to each other. Curl your hands toward your shoulders,
+                                    maintaining the position of your palms. Squeeze your biceps at the top of the movement before lowering your hands back down to your
+                                    sides, maintaining constant tension on the band. Keep your elbows stable and in position at your sides throughout the movement.
+                                  <div>
+                                  <button class="btn btn-secondary" data-toggle="collapse" data-target="#standingResistanceBandhammerCurl">Close</button>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+<!-- exercise 4 -->
+            <div class="mx-auto" data-toggle="collapse" data-target="#standingDumbbellCurl">
+              <div class="text-center bg-dark border border-light"><h4 class="text-white rubik-font p-1 overflow-hidden">Standing Dumbbell Curl</h4>
+              </div>
+              <div class="collapse" id="standingDumbbellCurl">
+                <div class="card mb-3">
+                    <div class="card-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                  <!-- Card - Title-->
+                                  <h3 class="feature-modal-title text-secondary text-uppercase mb-0">Standing Dumbbell Curl</h3><br><br>
+                                  <!-- Card - Image-->
+                                  <img class="img-fluid rounded mb-5" src="images/standing-dumbbell-curls.gif" alt="Dumbbell Curl" />
+                                  <!--  Card - Text-->
+                                  <p class="mb-5 font-weight-bold">Target Muscle: Brachialis and brachioradialis.</p>
+                                  <p class="mb-5 text-justify"><strong>How to do it:<br></strong> Grab a pair of dumbbells and let them hang at arm’s length next to your sides.
+                                    Turn your arms so your palms face forward. Without moving your upper arms, bend your elbows and curl the dumbbells as close to your shoulders
+                                    as you can. Pause, then slowly lower the weight back to the starting position. Each time you return to the starting position, completely
+                                    straighten your arms.
+                                  <div>
+                                  <button class="btn btn-secondary" data-toggle="collapse" data-target="#standingDumbbellCurl">Close</button>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+<!-- exercise 5 -->
+            <div class="mx-auto" data-toggle="collapse" data-target="#zottmanCurl">
+              <div class="text-center bg-dark border border-light"><h4 class="text-white rubik-font p-1 overflow-hidden">Zottman Curl</h4>
+              </div>
+              <div class="collapse" id="zottmanCurl">
+                <div class="card mb-3">
+                    <div class="card-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                  <!-- Card - Title-->
+                                  <h2 class="feature-modal-title text-secondary text-uppercase mb-0">Zottman Curl</h2><br><br>
+                                  <!-- Card - Image-->
+                                  <img class="img-fluid rounded mb-5" src="images/zottman-curl.gif" alt="Zottman Curl" />
+                                  <!--  Card - Text-->
+                                  <p class="mb-5 font-weight-bold">Target Muscle: Brachialis</p>
+                                  <p class="mb-5 text-justify"><strong>How to do it:<br></strong> Grab a pair of dumbbells and let them hang at arm’s
+                                    length next to your sides. Turn your arms so your palms face forward. Without moving your upper arms, bend your
+                                    elbows and curl the dumbbells as close to your shoulders as you can. Pause, then rotate the dumbbells so your palms
+                                    face forward again. Slowly lower the weights down in that position. Rotate the dumbbells back to the starting position
+                                    and repeat.
+                                  <div>
+                                  <button class="btn btn-secondary" data-toggle="collapse" data-target="#zottmanCurl">Close</button>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+<!-- exercise 6 -->
+            <div class="mx-auto" data-toggle="collapse" data-target="#cableRopeHammerCurl">
+              <div class="text-center bg-dark border border-light"><h4 class="text-white rubik-font p-1 overflow-hidden">Cable Rope Hammer Curl</h4>
+              </div>
+              <div class="collapse" id="cableRopeHammerCurl">
+                <div class="card mb-3">
+                    <div class="card-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                  <!-- Card - Title-->
+                                  <h2 class="feature-modal-title text-secondary text-uppercase mb-0">Cable Rope Hammer Curl</h2><br><br>
+                                  <!-- Card - Image-->
+                                  <img class="img-fluid rounded mb-5" src="images/cable-curl.gif" alt="Cable Curl" />
+                                  <!--  Card - Text-->
+                                  <p class="mb-5 font-weight-bold">Target Muscle: Brachialis and brachioradialis.</p>
+                                  <p class="mb-5 text-justify"><strong>How to do it:<br></strong> Hold both ends of a rope attached to the low pulley
+                                    of a cable machine. Press your elbows into your sides with your palms facing each other. Keep your feet shoulder-width
+                                    apart, your torso upright, and your knees slightly bent. Keeping your arms stable throughout the move, curl, the rope
+                                    toward your shoulders, Pause, and reverse the movement to return to the starting position.
+                                  <div>
+                                  <button class="btn btn-secondary" data-toggle="collapse" data-target="#cableRopeHammerCurl">Close</button>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+<!-- exercise 7 -->
+            <div class="mx-auto" data-toggle="collapse" data-target="#chinup">
+              <div class="text-center bg-dark border border-light"><h4 class="text-white rubik-font p-1 overflow-hidden">Chin Up</h4>
+              </div>
+              <div class="collapse" id="chinup">
+                <div class="card mb-3">
+                    <div class="card-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                  <!-- Card - Title-->
+                                  <h2 class="feature-modal-title text-secondary text-uppercase mb-0">Chin Up</h2><br><br>
+                                  <!-- Card - Image-->
+                                  <img class="img-fluid rounded mb-5" src="images/chin-up.gif" alt="Chin up" />
+                                  <!--  Card - Text-->
+                                  <p class="mb-5 font-weight-bold">Target Muscle: Biceps, shoulder, and back.</p>
+                                  <p class="mb-5 text-justify"><strong>How to do it:<br></strong> Grab a chinup bar using a shoulder-width
+                                    underhand grip and hang at arm’s length. Squeeze your shoulder blades down and back, bend your elbows,
+                                    and pull the top of your chest to the bar. Pause, and slowly lower your body back to the starting position.
+                                  <div>
+                                  <button class="btn btn-secondary" data-toggle="collapse" data-target="#chinup">Close</button>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+<!-- exercise 8 -->
+            <div class="mx-auto dropup" data-toggle="collapse" data-target="#underhandRow">
+              <div class="text-center bg-dark border border-light"><h4 class="text-white rubik-font p-1 overflow-hidden">Inverted Row</h4>
+              </div>
+              <div class="collapse" id="underhandRow">
+                <div class="card mb-3">
+                    <div class="card-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                  <!-- Card - Title-->
+                                  <h2 class="feature-modal-title text-secondary text-uppercase mb-0">Underhand Grip Inverted Row</h2><br><br>
+                                  <!-- Card - Image-->
+                                  <img class="img-fluid rounded mb-5" src="images/inverted-row.gif" alt="inverted row" />
+                                  <!--  Card - Text-->
+                                  <p class="mb-5 font-weight-bold">Target Muscle: Biceps, and upper-back.</p>
+                                  <p class="mb-5 text-justify"><strong>How to do it:<br></strong> Grab a bar with an underhand, shoulder-width grip.
+                                    You palms should be facing you. Hang with your arms completely straight. Your body should form a straight line from
+                                    your ankles to your head. Initiate the movement by pulling your shoulder blades back, then continue the pull with your
+                                    arms to lift your chest to the bar. Pause, then slowly lower your body back to the starting position.
+                                  <div>
+                                  <button class="btn btn-secondary" data-toggle="collapse" data-target="#underhandRow">Close</button>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+<!-- exercise 9 -->
+            <div class="mx-auto dropup" data-toggle="collapse" data-target="#inclineBicepCurl">
+              <div class="text-center bg-dark border border-light"><h4 class="text-white rubik-font p-1 overflow-hidden">Incline Bicep Curl</h4>
+              </div>
+              <div class="collapse" id="inclineBicepCurl">
+                <div class="card mb-3">
+                    <div class="card-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                  <!-- Card - Title-->
+                                  <h2 class="feature-modal-title text-secondary text-uppercase mb-0">Incline Bicep Curl</h2><br><br>
+                                  <!-- Card - Image-->
+                                  <img class="img-fluid rounded mb-5" src="images/incline-bicep-curl.gif" alt="incline bicep curl" />
+                                  <!--  Card - Text-->
+                                  <p class="mb-5 font-weight-bold">Target Muscle: Biceps brachii.</p>
+                                  <p class="mb-5 text-justify"><strong>How to do it:<br></strong> Sit on an incline bench and hold a
+                                    dumbbell in each hand at arm's length. Use your biceps to curl the dumbbell until it reaches your
+                                    shoulder, then lower them back down to your side and repeat.
+                                  <div>
+                                  <button class="btn btn-secondary" data-toggle="collapse" data-target="#inclineBicepCurl">Close</button>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+
+<!-- exercise 10 -->
+            <div class="mx-auto dropup" data-toggle="collapse" data-target="#proneSpiderCurl">
+              <div class="text-center bg-dark border border-light"><h4 class="text-white rubik-font p-1 overflow-hidden">Prone Spider Curl</h4>
+              </div>
+              <div class="collapse" id="proneSpiderCurl">
+                <div class="card mb-3">
+                    <div class="card-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                  <!-- Card - Title-->
+                                  <h2 class="feature-modal-title text-secondary text-uppercase mb-0">Prone Spider Curl</h2><br><br>
+                                  <!-- Card - Image-->
+                                  <img class="img-fluid rounded mb-5" src="images/prone-spider-curl.gif" alt="prone spider bicep curl" />
+                                  <!--  Card - Text-->
+                                  <p class="mb-5 font-weight-bold">Target Muscle: Biceps brachii.</p>
+                                  <p class="mb-5 text-justify"><strong>How to do it:<br></strong> Grab a dumbbell and sit facing forward on an incline bench.
+                                    Moving only at the elbow, squeeze you bicep to curl the dumbbell way up with clean form. Make sure to keep your shoulder
+                                    out of the equation by keeping your back live and engaged.
+                                  <div>
+                                  <button class="btn btn-secondary" data-toggle="collapse" data-target="#proneSpiderCurl">Close</button>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+<!-- exercise 11 -->
+            <div class="mx-auto dropup" data-toggle="collapse" data-target="#reverseCurlStraightbar">
+              <div class="text-center bg-dark border border-light"><h4 class="text-white rubik-font p-1 overflow-hidden">Reverse Curl Straightbar</h4>
+              </div>
+              <div class="collapse" id="reverseCurlStraightbar">
+                <div class="card mb-3">
+                    <div class="card-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                  <!-- Card - Title-->
+                                  <h2 class="feature-modal-title text-secondary text-uppercase mb-0">Reverse Curl Straightbar</h2><br><br>
+                                  <!-- Card - Image-->
+                                  <img class="img-fluid rounded mb-5" src="images/reverse-curl-straightbar.gif" alt="reverse curl straightbar" />
+                                  <!--  Card - Text-->
+                                  <p class="mb-5 font-weight-bold">Target Muscle: Biceps brachii, Brachialis and Brachioradialis.</p>
+                                  <p class="mb-5 text-justify"><strong>How to do it:<br></strong> Stand and grip a barbell at shoulder width with an
+                                    overhand grip. Flex the elbows and rotate the barbell upwards, only using your forearms, until your palms face out
+                                    and the barbell is in line with your shoulders. Return it back down slowly and repeat.
+                                  <div>
+                                  <button class="btn btn-secondary" data-toggle="collapse" data-target="#reverseCurlStraightbar">Close</button>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+<!-- exercise 12 -->
+            <div class="mx-auto dropup" data-toggle="collapse" data-target="#leanedForwardEzBarCurl">
+              <div class="text-center bg-dark border border-light"><h4 class="text-white rubik-font p-1 overflow-hidden">Leaned Forward Ez Bar</h4>
+              </div>
+              <div class="collapse" id="leanedForwardEzBarCurl">
+                <div class="card mb-3">
+                    <div class="card-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                  <!-- Card - Title-->
+                                  <h2 class="feature-modal-title text-secondary text-uppercase mb-0">Leaned Forward Ez Bar Curl</h2><br><br>
+                                  <!-- Card - Image-->
+                                  <img class="img-fluid rounded mb-5" src="images/leant-forward.gif" alt="leant forward Ez bar Curl" />
+                                  <!--  Card - Text-->
+                                  <p class="mb-5 font-weight-bold">Target Muscle: Brachialis and Brachioradialis.</p>
+                                  <p class="mb-5 text-justify"><strong>How to do it:<br></strong> Hold the EZ bar in front of your thighs with an
+                                    underhand, shoulder-width grip. Lean forward slightly, so your torso's around 30-degrees to your hips. As you
+                                    breathe in, curl the bar until your hands are at your shoulders. Squeeze your biceps, then lower under control.
+                                  <div>
+                                  <button class="btn btn-secondary" data-toggle="collapse" data-target="#leanedForwardEzBarCurl">Close</button>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+<!-- exercise 13 -->
+            <div class="mx-auto dropup" data-toggle="collapse" data-target="#reversedGripEzBarCurl">
+              <div class="text-center bg-dark border border-light"><h4 class="text-white rubik-font p-1 overflow-hidden">Reverse Grip Ez Bar</h4>
+              </div>
+              <div class="collapse" id="reversedGripEzBarCurl">
+                <div class="card mb-3">
+                    <div class="card-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                  <!-- Card - Title-->
+                                  <h2 class="feature-modal-title text-secondary text-uppercase mb-0">Reverse Grip Ez Bar Curl</h2><br><br>
+                                  <!-- Card - Image-->
+                                  <img class="img-fluid rounded mb-5" src="images/reverseEZ.gif" alt="Reverse Grip" />
+                                  <!--  Card - Text-->
+                                  <p class="mb-5 font-weight-bold">Target Muscle: Biceps brachii and Brachialis.</p>
+                                  <p class="mb-5 text-justify"><strong>How to do it:<br></strong> Hold the EZ bar in front of your thighs with an overhand,
+                                    shoulder-width grip. As you breathe in, curl the bar until your hands are at your shoulders. Squeeze your biceps, then lower under control.
+                                  <div>
+                                  <button class="btn btn-secondary" data-toggle="collapse" data-target="#reversedGripEzBarCurl">Close</button>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+<!-- exercise 14 -->
+            <div class="mx-auto dropup" data-toggle="collapse" data-target="#twistingDumbbellCurl">
+              <div class="text-center bg-dark border border-light"><h4 class="text-white rubik-font p-1 overflow-hidden">Twisting Dumbbell Curl</h4>
+              </div>
+              <div class="collapse" id="twistingDumbbellCurl">
+                <div class="card mb-3">
+                    <div class="card-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                  <!-- Card - Title-->
+                                  <h2 class="feature-modal-title text-secondary text-uppercase mb-0">Twisting Dumbbell Curl</h2><br><br>
+                                  <!-- Card - Image-->
+                                  <img class="img-fluid rounded mb-5" src="images/twisting-dumbbel-curl.gif" alt="Twisting Dumbbell Curl" />
+                                  <!--  Card - Text-->
+                                  <p class="mb-5 font-weight-bold">Target Muscle: Biceps brachii and Brachioradialis.</p>
+                                  <p class="mb-5 text-justify"><strong>How to do it:<br></strong> Hold a dumbbell in each hand at your side with
+                                    palms facing each other. Use your bicep to curl the dumbbells up to your shoulders alternately, twisting your
+                                    palms to face your chest as you lift them. Slowly lower the dumbbells back down to your side and repeat.
+                                  <div>
+                                  <button class="btn btn-secondary" data-toggle="collapse" data-target="#twistingDumbbellCurl">Close</button>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+<!-- exercise 15 -->
+            <div class="mx-auto dropup" data-toggle="collapse" data-target="#underhandSeatedRow">
+              <div class="text-center bg-dark border border-light"><h4 class="text-white rubik-font p-1 overflow-hidden">Underhand Seated Row</h4>
+              </div>
+              <div class="collapse" id="underhandSeatedRow">
+                <div class="card mb-3">
+                    <div class="card-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                  <!-- Card - Title-->
+                                  <h2 class="feature-modal-title text-secondary text-uppercase mb-0">Underhand Seated Row</h2><br><br>
+                                  <!-- Card - Image-->
+                                  <img class="img-fluid rounded mb-5" src="images/underhand-seated-row.gif" alt="Underhand Seated Row" />
+                                  <!--  Card - Text-->
+                                  <p class="mb-5 font-weight-bold">Target Muscle: Biceps brachii and Latissimus Dorsi.</p>
+                                  <p class="mb-5 text-justify"><strong>How to do it:<br></strong> Bend your knees and hold the bar with an underhand grip,
+                                    shoulder-width apart. Lean back slightly, keeping your back straight, then use your back muscle to drive the bar towards
+                                    your belly button. Return the bar to starting position and repeat.
+                                  <div>
+                                  <button class="btn btn-secondary" data-toggle="collapse" data-target="#underhandSeatedRow">Close</button>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+          <!-- Bottom area - Put something so that the last example of workout is not at the very bottom -->
+        </div>
+
+
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</body>
+</html>
