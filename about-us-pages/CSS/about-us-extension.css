@@ -112,8 +112,8 @@ section{
   justify-content: space-between;
 }
 .card{
-  height: 280px;
-  max-width: 350px;
+  height: 350px;
+  max-width: 400px;
   margin: 0 20px;
   background: white;
   transition: 0.4s;
