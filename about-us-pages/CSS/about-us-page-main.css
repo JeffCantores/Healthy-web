@@ -279,14 +279,17 @@ h1{
   .sectionAchievements{
     display: flex;
     background-size: cover;
-    height: calc(240vh - 80px);
+    height: calc(80vh - 80px);
   }
   .sectionAboutUs{
      display: flex;
     background-size: cover;
     height: calc(300vh - 80px);
   }
-  h3{
+  .AboutUsYey{
     font-size: medium;
+  }
+  .Achievementsyey{
+    font-size: small;
   }
 }
