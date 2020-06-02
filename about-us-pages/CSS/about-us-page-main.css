@@ -197,17 +197,19 @@ h1{
 }
 
 .achievementCards h2{
-  font-size: 60px;
+  font-size: 10vw;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: Righteous;
   font-weight: bold;
   color: white;
 }
 
-#Achievements{
-  color: white;
- font-size:5vw;
+
+#AboutUsYey{
+ color: white;
+ font-size: 10vw;
+ font-family: Righteous;
 }
 
 
@@ -280,6 +282,7 @@ h1{
     display: flex;
     background-size: cover;
     height: calc(240vh - 80px);
+    height: calc(80vh - 80px);
   }
   .sectionAboutUs{
      display: flex;
