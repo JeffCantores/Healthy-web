@@ -284,3 +284,8 @@ h1{
   .Achievements{
     font-size:150px;
   }
+
+  h3{
+    font-size: 20px;
+  }
+}
