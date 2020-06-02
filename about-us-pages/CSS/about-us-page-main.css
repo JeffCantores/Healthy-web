@@ -281,11 +281,12 @@ h1{
     background-size: cover;
     height: calc(240vh - 80px);
   }
-  .Achievements{
-    font-size:150px;
+  .sectionAboutUs{
+     display: flex;
+    background-size: cover;
+    height: calc(300vh - 80px);
   }
-
   h3{
-    font-size: 20px;
+    font-size: medium;
   }
 }
