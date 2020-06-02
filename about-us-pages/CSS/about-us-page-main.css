@@ -286,10 +286,10 @@ h1{
     background-size: cover;
     height: calc(300vh - 80px);
   }
-  .AboutUsYey{
+  #AboutUsYey{
     font-size: medium;
   }
-  .Achievementsyey{
+  #Achievementsyey{
     font-size: small;
   }
 }
