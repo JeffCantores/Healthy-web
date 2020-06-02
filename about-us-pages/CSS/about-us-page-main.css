@@ -281,10 +281,7 @@ h1{
   .sectionAchievements{
     display: flex;
     background-size: cover;
-<<<<<<< HEAD
     height: calc(240vh - 80px);
-=======
->>>>>>> 71e7f72fc6da32146b03637c0eb0e63060e19ece
     height: calc(80vh - 80px);
   }
   .sectionAboutUs{
