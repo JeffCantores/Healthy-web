@@ -290,9 +290,9 @@ h1{
     height: calc(300vh - 80px);
   }
   #AboutUsYey{
-    font-size: medium;
+    font-size: 10vw;
   }
   #Achievementsyey{
-    font-size: small;
+    font-size: 10vw;
   }
 }
