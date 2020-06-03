@@ -111,55 +111,23 @@ section{
   align-items: center;
   justify-content: space-between;
 }
-.card{
-  height: 350px;
-  max-width: 400px;
-  margin: 0 20px;
-  background: white;
-  transition: 0.4s;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+
+.aboutUs img{
+  border-radius: 50%;
 }
-.card:hover{
-  height: 470px;
-  box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
-}
-.card .img{
-  height: 200px;
-  width: 100%;
-}
-.card .img img{
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-.card .top-text{
-  padding: 5px;
-}
-.card .top-text .name{
+
+.aboutUs .name{
   font-size: 25px;
   font-weight: 600;
   color: #202020;
+  padding: 5px;
 }
-.card .top-text p{
+
+.aboutUs p{
   font-size: 20px;
   font-weight: 600;
   color: #e74c3c;
   line-height: 20px;
-}
-.card .bottom-text{
-  padding: 0 20px 10px 20px;
-  margin-top: 5px;
-  background: white;
-  opacity: 0;
-  visibility: hidden;
-  transition: 0.1s;
-}
-.card:hover .bottom-text{
-  opacity: 1;
-  visibility: visible;
-}
-.card .bottom-text .text{
-  text-align: justify;
 }
 
 @media screen and (max-width: 978px) {
@@ -172,5 +140,5 @@ section{
     margin: 20px 0;
   }
 
-  
+
 }
