@@ -279,14 +279,12 @@ h1{
     flex-direction: column;
   }
   .sectionAchievements{
-    display: flex;
     background-size: cover;
-    height: calc(200vh - 80px);
+    height: calc(300vh - 80px);
   }
   .sectionAboutUs{
-     display: flex;
     background-size: cover;
-    height: calc(200vh - 80px);
+    height: calc(210vh - 80px);
   }
   #AboutUsYey{
     font-size: 10vw;
