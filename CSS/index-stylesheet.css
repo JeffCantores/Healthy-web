@@ -59,13 +59,47 @@ hr.style {
 border-top: 3px double #8c8b8b;
 }
 
+div.corneround {
+  border-radius: 10px;
+  margin: 5px;
+}
+
+div.corneround:active {
+  border-radius: 100px;
+  margin: 5px;
+}
+
+
+
+div.corneroundparent {
+  border-radius: 10px;
+  margin: 5px;
+}
+
+
+
+div.corneround1 {
+  border-radius: 10px;
+  margin: 10px;
+}
+
+p.scrl{
+  overflow: auto;
+  max-height: 150px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+}
+
 .feature .feature-item {
 cursor: pointer;
 position: relative;
 display: block;
-max-width: 25rem;
+max-width: 8rem;
 border-radius: 0.5rem;
 overflow: hidden;
+
+
 }
 .feature .feature-item .feature-item-caption {
 position: absolute;
@@ -75,6 +109,7 @@ transition: all 0.2s ease-in-out;
 opacity: 0;
 background-color: #e76f51;
 z-index: 1;
+
 }
 .feature .feature-item .feature-item-caption:hover {
 opacity: 1;
