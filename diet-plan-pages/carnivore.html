@@ -17,6 +17,8 @@
     	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     	<link rel="stylesheet" type="text/css" href="..\CSS\profile page.css">
 
+      <script type="text/javascript" src="../JS/diet.js"></script>
+
     <title>Diet Plans - CARNIVORE</title>
   </head>
 
@@ -175,10 +177,44 @@
               Day 7
             </button><br><br>
 
-            <a class="btn btn-dark btn-sm" href="diet-plans.html" style="font-family: 'Rubik', sans-serif; width: 50%; background-color: #264653;">Back</a><br>
+
+            <div class="row">
+             <div class="col-6">
+               <a class="btn btn-dark btn-sm" href="diet-plans.html" style="font-family: 'Rubik', sans-serif; width: 100%; background-color: #264653;">Back</a>
+             </div>
+             <div class="col-6">
+               <button class="btn btn-success btn-sm" data-toggle="modal" data-target="#rewardModal" style="font-family: 'Rubik', sans-serif; width: 100%;">Done</a>
+             </div>
+           </div>
 
         </div>
       </div>
+
+      <div class="modal" id="rewardModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title" id="exampleModalCenteredLabel">CONGRATULATIONS!</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body" style="text-align: center;">
+
+              <h4>YOU'VE EARNED</h4>
+              <img src="../images/coinssss.gif" alt="coins"><br>
+              <span style="color: yellow; -webkit-text-stroke: 1px black;"><b>5,000</b></span> GOLD COINS!
+
+            </div>
+            <div class="modal-footer">
+              <a href="diet-plans.html" class="btn btn-success">Try another plan</a>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
 
       <!-- Modal (day 1)-->
       <div class="modal" id="day1" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableLabel" aria-hidden="true">
@@ -191,6 +227,12 @@
               </button>
             </div>
             <div class="modal-body">
+
+              <div class="progress">
+                  <div class="progress-bar bg-success myBar" id="myBar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <br>
+
               <table class="table table-bordered">
               <tbody>
                 <tr>
@@ -219,6 +261,7 @@
             </table>
             </div>
             <div class="modal-footer">
+              <button type="button" class="btn btn-success done" onclick="done()">Done</button>
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             </div>
           </div>
@@ -236,6 +279,12 @@
               </button>
             </div>
             <div class="modal-body">
+
+              <div class="progress">
+                  <div class="progress-bar bg-success myBar" id="myBar2" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <br>
+
               <table class="table table-bordered">
               <tbody>
                 <tr>
@@ -270,6 +319,7 @@
             </table>
             </div>
             <div class="modal-footer">
+              <button type="button" class="btn btn-success done" onclick="done2()">Done</button>
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             </div>
           </div>
@@ -287,6 +337,12 @@
               </button>
             </div>
             <div class="modal-body">
+
+              <div class="progress">
+                  <div class="progress-bar bg-success myBar" id="myBar3" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <br>
+
               <table class="table table-bordered">
               <tbody>
                 <tr>
@@ -321,6 +377,7 @@
             </table>
             </div>
             <div class="modal-footer">
+              <button type="button" class="btn btn-success done" onclick="done3()">Done</button>
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             </div>
           </div>
@@ -338,6 +395,12 @@
               </button>
             </div>
             <div class="modal-body">
+
+              <div class="progress">
+                  <div class="progress-bar bg-success myBar" id="myBar4" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <br>
+
               <table class="table table-bordered">
               <tbody>
                 <tr>
@@ -371,6 +434,7 @@
             </table>
             </div>
             <div class="modal-footer">
+              <button type="button" class="btn btn-success done" onclick="done4()">Done</button>
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             </div>
           </div>
@@ -388,6 +452,12 @@
               </button>
             </div>
             <div class="modal-body">
+
+              <div class="progress">
+                  <div class="progress-bar bg-success myBar" id="myBar5" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <br>
+
               <table class="table table-bordered">
               <tbody>
                 <tr>
@@ -421,6 +491,7 @@
             </table>
             </div>
             <div class="modal-footer">
+              <button type="button" class="btn btn-success done" onclick="done5()">Done</button>
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             </div>
           </div>
@@ -438,6 +509,12 @@
                       </button>
                     </div>
                     <div class="modal-body">
+
+                      <div class="progress">
+                          <div class="progress-bar bg-success myBar" id="myBar6" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <br>
+
                       <table class="table table-bordered">
                       <tbody>
                         <tr>
@@ -468,6 +545,7 @@
                     </table>
                     </div>
                     <div class="modal-footer">
+                      <button type="button" class="btn btn-success done" onclick="done6()">Done</button>
                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                     </div>
                   </div>
@@ -485,6 +563,12 @@
                       </button>
                     </div>
                     <div class="modal-body">
+
+                      <div class="progress">
+                          <div class="progress-bar bg-success myBar" id="myBar7" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <br>
+
                       <table class="table table-bordered">
                       <tbody>
                         <tr>
@@ -515,7 +599,8 @@
                     </table>
                     </div>
                     <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-success done" onclick="done7()">Done</button>
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                     </div>
                   </div>
                 </div>
